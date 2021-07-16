@@ -46,11 +46,28 @@ html {
   display: flexbox;
 }
 
+.gender-bottom {
+  text-align: center;
+  text-shadow: 2px 2px 3px #000000;
+  font-size: 30;
+  font-family: "Tourney", cursive;
+  color: aliceblue;
+  letter-spacing: 2px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.gender-bottom:hover {
+  letter-spacing: 4px;
+}
+
 .btn {
   padding: 1em 2.1em 1.1em;
   border-radius: 3px;
   margin: 8px 8px 8px 8px;
-  color: #762a1e;
+  color: #fbdedb;
   background-color: #fbdedb;
   display: inline-block;
   background: #000000;
