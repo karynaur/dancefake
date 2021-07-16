@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Tourney:ital,wght@1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tourney:wght@700&display=swap");
+html {
+  background: url(./wal_6.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.heading {
+  color: #0fa2d1;
+  text-align: center;
+  text-shadow: 8px 8px 8px #000000;
+  font-size: 10vh;
+  font-family: "Tourney", cursive;
+  transition: transform 0.5s;
+}
+
+.heading:hover {
+  transform: scale(1.1);
+}
+
+.gender {
+  text-align: center;
+  text-shadow: 2px 2px 3px #000000;
+  font-size: 7vh;
+  font-family: "Tourney", cursive;
+  color: antiquewhite;
+  letter-spacing: 2px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.gender:hover {
+  letter-spacing: 4px;
+}
+
+.gender-choose {
+  align-items: center;
+}
+.images {
+  display: flexbox;
+}
+
+.btn {
+  padding: 1em 2.1em 1.1em;
+  border-radius: 3px;
+  margin: 8px 8px 8px 8px;
+  color: #762a1e;
+  background-color: #fbdedb;
+  display: inline-block;
+  background: #000000;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  font-family: "Tourney", cursive;
+  font-weight: 800;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+  position: relative;
+}
+.btn:hover,
+.btn:focus {
+  opacity: 0.8;
+}
+.btn:active {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8);
+}
